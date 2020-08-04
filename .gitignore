@@ -1,0 +1,15 @@
+node_modules
+commands.txt
+functionalities.md
+notes.txt
+build/
+temp/
+.env
+coverage/
+ormconfig.json
+data.json
+
+tmp/*
+!tmp/.gitkeep
+yarn.lock
+yarn-error.lock

@@ -1,0 +1,21 @@
+{
+  "name": "typeorm-rowadz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ts-node": "ts-node"
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.12",
+    "@types/node": "^14.0.27",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "reflect-metadata": "^0.1.13",
+    "sqlite3": "^5.0.0",
+    "typeorm": "^0.2.25"
+  }
+}
