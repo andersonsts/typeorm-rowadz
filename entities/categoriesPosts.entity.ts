@@ -5,6 +5,13 @@ import { CategoriesEntity } from './categories.entity';
 
 @Entity({ name: 'categories_posts' })
 export class CategoriesPostsEntity extends SharedProp {
+  constructor(someColumn: string, post: PostsEntity, category: CategoriesEntity) {
+    super();
+    this.someColumn = someColumn;
+    this.post = post;
+    this.category = category;
+  }
+
   @PrimaryGeneratedColumn()
   id: number;
 
