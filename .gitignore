@@ -13,3 +13,6 @@ tmp/*
 !tmp/.gitkeep
 yarn.lock
 yarn-error.lock
+
+logs
+*.log

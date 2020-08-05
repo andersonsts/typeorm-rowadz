@@ -4,7 +4,14 @@ import { PostsEntity } from './posts.entity';
 
 @Entity({ name: 'users' })
 export class UserEntity extends SharedProp {
-  constructor(firstName: string, lastName: string, isActive: boolean, email: string, birthDate: Date, password: string) {
+  constructor(
+    firstName: string,
+    lastName: string,
+    isActive: boolean,
+    email: string,
+    birthDate: Date,
+    password: string
+  ) {
     super();
     this.firstName = firstName;
     this.lastName = lastName;
